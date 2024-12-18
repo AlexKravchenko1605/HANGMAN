@@ -1,0 +1,8 @@
+:root {
+  --body-color: #5455ac;
+  --game-field-color: white;
+  --key-color: #5455ac;
+  --text-color: black;
+  --incorrect-color: red;
+  --modal-background: rgba(0, 0, 0, 0.836);
+}
