@@ -7,10 +7,10 @@ import { mouseEvents } from "./modules/mouseEvents.js";
 const startGame = () => {
   document.body.innerHTML = "";
 
-  const mistake = sessionStorage.getItem("mistake");
+  let mistake = sessionStorage.getItem("mistake");
   if (mistake === null) {
     sessionStorage.setItem("mistake", 0);
-    mistake = "0";
+    mistake = 0;
   }
 
   createBaseStructure(mistake);
